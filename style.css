@@ -28,9 +28,11 @@ body{
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
     text-align: left;
     margin-top: 10rem;
+    box-shadow: 10px 10px 5px black;
+
 }
 
 .image1 {
@@ -71,6 +73,7 @@ h1:hover{
     font-size: 16px;
     color: gray;
     line-height: 25px;
+    font-weight: 600;
 }
 
 .avatar {
@@ -84,6 +87,10 @@ h1:hover{
 .image2 {
     width: 40px;
     border-radius: 50%;
+}
+
+.avatar p{
+    font-weight: 800;
 }
 
 .attribution{
